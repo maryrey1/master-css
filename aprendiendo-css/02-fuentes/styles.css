@@ -1,0 +1,44 @@
+@font-face {
+    font-family: MonserratFuenteCustom;
+    /*colocarle nombre a la fuente personalizada*/
+    src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+
+/* body {
+    background: red;
+} */
+
+h1 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Italianno', cursive;
+    font-style: italic;
+    /*letra en cursiva*/
+    text-transform: uppercase;
+    /*poniendo las letras en mayúscula*/
+    font-size: 45px;
+    /* Colores */
+    /* Colores del sistema */
+    color: mediumpurple;
+    /* Colores hexadecimales */
+    color: #bb2180;
+    /* Colores RGB (combinación rojo, verde, azul) */
+    color: rgb(255, 255, 107);
+    /* Colores RGB */
+    color: rgba(255, 255, 107, 0.4);
+    /*transparencia, tono más bajo*/
+}
+
+h3 {
+    font-family: MonserratFuenteCustom, "comic Sans MS";
+    font-size: 35px;
+    font-weight: lighter;
+    color: olive;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /*grosor de la letra*/
+}

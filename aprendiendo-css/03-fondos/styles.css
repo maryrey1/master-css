@@ -1,0 +1,51 @@
+body {
+    background-color: #ccc;
+    /* 
+    background-image: url("img/fondo1.jpg");
+    background-repeat: repeat; ##repite la imagen##
+    background-repeat: repeat-x; ##horizontal##
+    background-repeat: repeat-y; ##vertical##
+    background-repeat: no-repeat;
+    ##imagen estática no se repite##
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    al bajar o subir se mueva el texto más no la imagen
+    background-position: left bottom; posiciona la imagen a la izquierda abajo
+    background-position: right bottom; 
+    */
+    color: black;
+    text-align: justify;
+    /*justifica el texto*/
+    text-indent: 15px;
+    /*cada salto de párrafo le pone sangría o identación*/
+    /*
+    word-spacing: 10px;
+    10px entre palabra y palabra
+    letter-spacing: 5px;
+    5px entre letra y letra
+    */
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: red;
+    /*color de la caja*/
+    color: white;
+    /*color del texto*/
+    font-family: "Open Sans";
+    text-align: center;
+    /*alinea a la derecha*/
+    /* line-height: 50px; */
+    text-transform: uppercase;
+    /* text-decoration: line-through; */
+    /*tacha*/
+    vertical-align: top;
+}
+
+h2 {
+    color: red;
+    background: white;
+    background-image: url("img/patron1.jpg");
+    border: 5px solid black;
+}
